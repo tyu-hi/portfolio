@@ -1,13 +1,9 @@
 
-export const Homepage: React.FC = () => {
 
+
+export const Homepage: React.FC = () => {
     return (
-<html>
-      <head>
-        <title>Tingyu Gong</title>
-        <style>color: white</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    </head>
+    <div>
       <header className = "header">
       <h1>Hello, my name is Tingyu!</h1>
       </header>
@@ -21,10 +17,7 @@ export const Homepage: React.FC = () => {
         <h3>CONTACT</h3>
         <p>tyugo2122@gmail.com</p>
         <p><a href = "https://www.linkedin.com/in/tingyu-gong-330398253/">LinkedIn</a></p>
-        
-      
-
-    </html>
+        </div>
     )
 }
 
